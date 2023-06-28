@@ -1,0 +1,95 @@
+/* Box sizing border-box */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove margins and paddings */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+figure,
+fieldset,
+legend,
+button,
+input,
+select,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove list styles */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Set default font and color */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Remove text decoration from links */
+a {
+    text-decoration: none;
+}
+
+/* Remove borders on images and tables */
+img,
+table {
+    border: 0;
+}
+
+/* Remove default outline on focus */
+:focus {
+    outline: none;
+}
+
+/* Set default box shadow */
+.box-shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Set default transition */
+.transition {
+    transition: all 0.3s ease;
+}
+
+/* Set default button styles */
+button,
+input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Set hover state on buttons */
+button:hover,
+input[type="submit"]:hover {
+    background-color: #666;
+}
