@@ -101,3 +101,47 @@
     outline: none;
   }
 }
+
+.slideshow-container {
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+  position: relative;
+  //  border: 10px solid red;
+
+  .slide {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    // border: 1px solid blue;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .text {
+    color: #f2f2f2;
+    font-size: 24px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    // border: 1px solid blue;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .slide h3 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 50px;
+    margin: 10px 0;
+    // border: 1px solid red;
+  }
+
+  .slide p {
+    font-size: 25px;
+  }
+}
