@@ -248,11 +248,40 @@
     }
 
     .datas {
-      background-color: #fff !important;
       color: #757575 !important;
+      background-color: #fff !important;
+      border: 1px solid #ccc !important;
       list-style-type: none;
       padding: 0;
       margin: 0;
+
+      .datas-banda {
+        border-bottom: 1px solid #ddd;
+        padding: 8px 16px !important;
+        color: #757575 !important;
+        list-style-type: none;
+      }
+      .esgotado {
+        color: #fff !important;
+        background-color: #f44336 !important;
+        margin-left: 16px !important;
+        display: inline-block;
+        padding-left: 8px;
+        padding-right: 8px;
+        text-align: center;
+        list-style-type: none;
+      }
+      .numero {
+        float: right !important;
+        margin-right: 16px !important;
+        border-radius: 50%;
+        background-color: #000;
+        color: #fff;
+        // display: inline-block;
+        padding-left: 8px;
+        padding-right: 8px;
+        text-align: center;
+      }
     }
   }
 }
