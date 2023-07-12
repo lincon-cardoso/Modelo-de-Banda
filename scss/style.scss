@@ -1,4 +1,5 @@
 @import "reset";
+@import "responsivity";
 
 .navbar {
   display: flex;
@@ -366,7 +367,7 @@
     padding-top: 64px;
     margin-top: 10px;
     color: black;
-    // border: 1px solid red;
+    border: 1px solid red;  
 
     
   }
